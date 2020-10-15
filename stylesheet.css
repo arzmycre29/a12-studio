@@ -303,3 +303,16 @@ footer {
   font-family: "Arial"
 }
 
+::selection {
+background: aquamarine;
+color: #ffffff;
+}
+::-moz-selection {
+background: #ff0036;
+color: #FFFFFF;
+}
+::-webkit-selection {
+background: #ff0036;
+color: #FFFFFF;
+}
+
